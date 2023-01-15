@@ -1,0 +1,314 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header section  */
+
+body .section {
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.all-text {
+    text-align: center;
+}
+
+.description {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.nav-title {
+    display: flex;
+    font-size: 10px;
+    gap: 20px;
+    list-style: none;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 8px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: firebrick;
+    border-radius: 2px;
+    color: white;
+    border: none;
+}
+
+.img {
+    align-items: center;
+    border-radius: 5px;
+    width: 650px;
+    height: 400px;
+    margin: 30px;
+}
+
+
+.team-section {
+    margin-bottom: 150px;
+}
+
+.team-member {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+}
+
+.team-members {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member,
+img {
+
+    width: 150px;
+    height: 150px;
+}
+
+.highlight {
+    color: orangered;
+}
+
+.text-feature {
+    margin-top: 15px;
+    font-size: 8px;
+}
+
+.features {
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 304px;
+    font-size: 10px;
+
+}
+
+/* 10 + year section */
+.third-section {
+    margin: 30px;
+}
+
+.third-image {
+    width: 200px;
+    height: 250px;
+}
+
+.third-description {
+    text-align: center;
+    font-size: 8px;
+}
+
+/* .third-enjoy-description {} */
+.third-section {
+    display: flex;
+}
+
+.left-border {
+    margin-bottom: 10px;
+    border-left: 3px solid tomato;
+}
+
+.para-one {
+    font-size: 10px;
+    margin: 20px;
+}
+
+
+.love-and-enjoy {
+    align-items: center;
+    margin: 30px;
+}
+
+.experience-btn {
+    width: 100px;
+    margin-top: 20px;
+    padding: 5px;
+    font-weight: 300;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* fact section  */
+
+.some-facts {
+    margin-bottom: 20px;
+    margin: 60px;
+    justify-content: space-between;
+}
+
+.facts-text {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 10px;
+
+}
+
+.quick-style {
+    color: grey;
+}
+
+.img-and-text {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    grid-gap: 20px;
+
+}
+
+.img-icon {
+    width: 40px;
+    height: 50px;
+    padding: 10px;
+
+}
+
+
+
+.about-icon {
+    width: 50px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.border {
+    width: 70px;
+    height: 130px;
+    border: 1px solid lightcoral;
+    border-radius: 3px;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+/* design section for sponsorship */
+.sponsorship-section {
+    margin-bottom: 30px;
+}
+
+.sponsorship {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.sponsorship-text {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.sponsorship-image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.image-size>img {
+    width: 40px;
+    height: 35px;
+
+}
+
+/* footer section  */
+
+.footer {
+    margin-bottom: 40px;
+    background: #FFF4E7;
+    text-align: center;
+
+}
+
+.footer-section {
+    width: 400px;
+    margin-left: 175px;
+
+}
+
+footer>.footer-text {
+    padding: 15px;
+    font-size: 8px;
+}
+
+/* media query section */
+
+@media only screen and (max-width: 576px) {
+    body {
+
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ul {
+        width: 100%;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img {
+        width: 100%;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-member {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .third-section {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-and-text {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sponsorship-section {
+        width: 100%;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
